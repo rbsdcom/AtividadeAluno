@@ -15,7 +15,6 @@ public class Aluno {
     void Ponderada() 
     {
         System.out.println("Media Ponderada: " + ((notaBimestral1 * 4) +(notaBimestral2 *6))/10);
-        System.out.println(((notaBimestral1 * 4) + (notaBimestral2 *6))/10);
     }
 
     void Situacao()
