@@ -1,7 +1,7 @@
 package atividade;
 
-public class Aluno {
-
+public class Aluno 
+{
     String nome;
     float notaBimestral1;
     float notaBimestral2;
@@ -14,18 +14,15 @@ public class Aluno {
 
     void Ponderada() 
     {
-        System.out.println("Media Ponderada: " + ((notaBimestral1 * 4) +(notaBimestral2 *6))/10);
+        System.out.println("Media Ponderada: " + ((notaBimestral1 * 4) + (notaBimestral2 * 6)) / 10);
     }
 
-    void Situacao()
+    void Situacao() 
     {
-        if((((notaBimestral1 * 4) + (notaBimestral2 *6))/10)>6)
-        {
+        if ((((notaBimestral1 * 4) + (notaBimestral2 * 6)) / 10) > 6) {
             System.out.println("Aprovado");
-        }
-        else
-        {
-          System.out.println("Reprovado");  
+        } else {
+            System.out.println("Reprovado");
         }
     }
 }
