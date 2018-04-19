@@ -20,9 +20,9 @@ public class Aluno
     void Situacao() 
     {
         if ((((notaBimestral1 * 4) + (notaBimestral2 * 6)) / 10) > 6) {
-            System.out.println("Aprovado");
+            System.out.println("Aprovado \n");
         } else {
-            System.out.println("Reprovado");
+            System.out.println("Reprovado \n");
         }
     }
 }
